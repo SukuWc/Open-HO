@@ -1,0 +1,173 @@
+EESchema Schematic File Version 4
+LIBS:HO_Turnout_No4-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L suku_basics:UI_WS2812C-2020 D?
+U 1 1 5E2138BB
+P 1900 2300
+AR Path="/5E2138BB" Ref="D?"  Part="1" 
+AR Path="/5E21054E/5E2138BB" Ref="D1"  Part="1" 
+AR Path="/5E21747D/5E2138BB" Ref="D6"  Part="1" 
+AR Path="/5E217FF5/5E2138BB" Ref="D11"  Part="1" 
+AR Path="/5E217FFA/5E2138BB" Ref="D16"  Part="1" 
+AR Path="/5E2189EA/5E2138BB" Ref="D21"  Part="1" 
+AR Path="/5E2189EF/5E2138BB" Ref="D26"  Part="1" 
+F 0 "D26" H 2000 2700 50  0000 L CNN
+F 1 "UI_WS2812C-2020" H 2000 2600 50  0000 L CNN
+F 2 "suku_basics:UI_WS2812C-2020" H 1950 2000 50  0001 L TNN
+F 3 "" H 2000 1925 50  0001 L TNN
+	1    1900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2700 1900 2600
+$Comp
+L suku_basics:UI_WS2812C-2020 D?
+U 1 1 5E2138CF
+P 2600 2300
+AR Path="/5E2138CF" Ref="D?"  Part="1" 
+AR Path="/5E21054E/5E2138CF" Ref="D2"  Part="1" 
+AR Path="/5E21747D/5E2138CF" Ref="D7"  Part="1" 
+AR Path="/5E217FF5/5E2138CF" Ref="D12"  Part="1" 
+AR Path="/5E217FFA/5E2138CF" Ref="D17"  Part="1" 
+AR Path="/5E2189EA/5E2138CF" Ref="D22"  Part="1" 
+AR Path="/5E2189EF/5E2138CF" Ref="D27"  Part="1" 
+F 0 "D27" H 2700 2700 50  0000 L CNN
+F 1 "UI_WS2812C-2020" H 2700 2600 50  0000 L CNN
+F 2 "suku_basics:UI_WS2812C-2020" H 2650 2000 50  0001 L TNN
+F 3 "" H 2700 1925 50  0001 L TNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2700 2600 2600
+$Comp
+L suku_basics:UI_WS2812C-2020 D?
+U 1 1 5E2138E3
+P 3300 2300
+AR Path="/5E2138E3" Ref="D?"  Part="1" 
+AR Path="/5E21054E/5E2138E3" Ref="D3"  Part="1" 
+AR Path="/5E21747D/5E2138E3" Ref="D8"  Part="1" 
+AR Path="/5E217FF5/5E2138E3" Ref="D13"  Part="1" 
+AR Path="/5E217FFA/5E2138E3" Ref="D18"  Part="1" 
+AR Path="/5E2189EA/5E2138E3" Ref="D23"  Part="1" 
+AR Path="/5E2189EF/5E2138E3" Ref="D28"  Part="1" 
+F 0 "D28" H 3400 2700 50  0000 L CNN
+F 1 "UI_WS2812C-2020" H 3400 2600 50  0000 L CNN
+F 2 "suku_basics:UI_WS2812C-2020" H 3350 2000 50  0001 L TNN
+F 3 "" H 3400 1925 50  0001 L TNN
+	1    3300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2700 3300 2600
+$Comp
+L suku_basics:UI_WS2812C-2020 D?
+U 1 1 5E2138F7
+P 4000 2300
+AR Path="/5E2138F7" Ref="D?"  Part="1" 
+AR Path="/5E21054E/5E2138F7" Ref="D4"  Part="1" 
+AR Path="/5E21747D/5E2138F7" Ref="D9"  Part="1" 
+AR Path="/5E217FF5/5E2138F7" Ref="D14"  Part="1" 
+AR Path="/5E217FFA/5E2138F7" Ref="D19"  Part="1" 
+AR Path="/5E2189EA/5E2138F7" Ref="D24"  Part="1" 
+AR Path="/5E2189EF/5E2138F7" Ref="D29"  Part="1" 
+F 0 "D29" H 4100 2700 50  0000 L CNN
+F 1 "UI_WS2812C-2020" H 4100 2600 50  0000 L CNN
+F 2 "suku_basics:UI_WS2812C-2020" H 4050 2000 50  0001 L TNN
+F 3 "" H 4100 1925 50  0001 L TNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 4000 2600
+$Comp
+L suku_basics:UI_WS2812C-2020 D?
+U 1 1 5E21390B
+P 4700 2300
+AR Path="/5E21390B" Ref="D?"  Part="1" 
+AR Path="/5E21054E/5E21390B" Ref="D5"  Part="1" 
+AR Path="/5E21747D/5E21390B" Ref="D10"  Part="1" 
+AR Path="/5E217FF5/5E21390B" Ref="D15"  Part="1" 
+AR Path="/5E217FFA/5E21390B" Ref="D20"  Part="1" 
+AR Path="/5E2189EA/5E21390B" Ref="D25"  Part="1" 
+AR Path="/5E2189EF/5E21390B" Ref="D30"  Part="1" 
+F 0 "D30" H 4800 2700 50  0000 L CNN
+F 1 "UI_WS2812C-2020" H 4800 2600 50  0000 L CNN
+F 2 "suku_basics:UI_WS2812C-2020" H 4750 2000 50  0001 L TNN
+F 3 "" H 4800 1925 50  0001 L TNN
+	1    4700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2700 4700 2600
+Wire Wire Line
+	2200 2300 2300 2300
+Wire Wire Line
+	2900 2300 3000 2300
+Wire Wire Line
+	3600 2300 3700 2300
+Wire Wire Line
+	4300 2300 4400 2300
+Wire Wire Line
+	1600 2300 1500 2300
+Wire Wire Line
+	5000 2300 5100 2300
+Text HLabel 1500 2300 0    50   Input ~ 0
+DIN
+Wire Wire Line
+	1900 2000 1900 1900
+Wire Wire Line
+	2600 2000 2600 1900
+Wire Wire Line
+	2600 1900 1900 1900
+Connection ~ 1900 1900
+Wire Wire Line
+	3300 2000 3300 1900
+Wire Wire Line
+	3300 1900 2600 1900
+Connection ~ 2600 1900
+Wire Wire Line
+	4000 2000 4000 1900
+Wire Wire Line
+	4000 1900 3300 1900
+Connection ~ 3300 1900
+Wire Wire Line
+	4700 2000 4700 1900
+Wire Wire Line
+	4700 1900 4000 1900
+Connection ~ 4000 1900
+Wire Wire Line
+	1500 1900 1900 1900
+Wire Wire Line
+	4700 2700 4000 2700
+Wire Wire Line
+	4000 2700 3300 2700
+Connection ~ 4000 2700
+Wire Wire Line
+	2600 2700 3300 2700
+Connection ~ 3300 2700
+Wire Wire Line
+	2600 2700 1900 2700
+Connection ~ 2600 2700
+Wire Wire Line
+	1900 2700 1500 2700
+Connection ~ 1900 2700
+Text HLabel 1500 1900 0    50   Input ~ 0
+VDD
+Text HLabel 1500 2700 0    50   Input ~ 0
+VSS
+$EndSCHEMATC
