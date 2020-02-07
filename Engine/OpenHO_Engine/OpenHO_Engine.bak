@@ -1,4 +1,134 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:OpenHO_Engine-cache
+EELAYER 29 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5E38783B
+P 1500 6000
+F 0 "J1" H 1418 5775 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 5866 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 1500 6000 50  0001 C CNN
+F 3 "~" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5E38807A
+P 2000 5500
+F 0 "J2" V 1964 5412 50  0000 R CNN
+F 1 "Conn_01x01" V 1873 5412 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2000 5500 50  0001 C CNN
+F 3 "~" H 2000 5500 50  0001 C CNN
+	1    2000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5E388681
+P 2500 6000
+F 0 "J3" H 2580 6042 50  0000 L CNN
+F 1 "Conn_01x01" H 2580 5951 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2500 6000 50  0001 C CNN
+F 3 "~" H 2500 6000 50  0001 C CNN
+	1    2500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5700 2000 6000
+Wire Wire Line
+	1700 6000 2000 6000
+Connection ~ 2000 6000
+Wire Wire Line
+	2300 6000 2000 6000
+$Comp
+L power:+VDC #PWR0101
+U 1 1 5E397F6C
+P 4900 1700
+F 0 "#PWR0101" H 4900 1600 50  0001 C CNN
+F 1 "+VDC" H 4900 1975 50  0000 C CNN
+F 2 "" H 4900 1700 50  0001 C CNN
+F 3 "" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:-VDC #PWR0102
+U 1 1 5E3983EC
+P 2000 6300
+F 0 "#PWR0102" H 2000 6200 50  0001 C CNN
+F 1 "-VDC" H 2000 6575 50  0000 C CNN
+F 2 "" H 2000 6300 50  0001 C CNN
+F 3 "" H 2000 6300 50  0001 C CNN
+	1    2000 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2000 6300 2000 6000
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5E39CCD9
+P 4500 6000
+F 0 "J4" H 4418 5775 50  0000 C CNN
+F 1 "Conn_01x01" H 4418 5866 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4500 6000 50  0001 C CNN
+F 3 "~" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5E39CCDF
+P 5000 5500
+F 0 "J5" V 4964 5412 50  0000 R CNN
+F 1 "Conn_01x01" V 4873 5412 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5000 5500 50  0001 C CNN
+F 3 "~" H 5000 5500 50  0001 C CNN
+	1    5000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5E39CCE5
+P 5500 6000
+F 0 "J6" H 5580 6042 50  0000 L CNN
+F 1 "Conn_01x01" H 5580 5951 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5500 6000 50  0001 C CNN
+F 3 "~" H 5500 6000 50  0001 C CNN
+	1    5500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5700 5000 6000
+Wire Wire Line
+	4700 6000 5000 6000
+Connection ~ 5000 6000
+Wire Wire Line
+	5300 6000 5000 6000
+$Comp
+L power:-VDC #PWR0103
+U 1 1 5E39CCEF
+P 5000 6300
+F 0 "#PWR0103" H 5000 6200 50  0001 C CNN
+F 1 "-VDC" H 5000 6575 50  0000 C CNN
+F 2 "" H 5000 6300 50  0001 C CNN
+F 3 "" H 5000 6300 50  0001 C CNN
+	1    5000 6300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 6300 5000 6000
 $EndSCHEMATC
