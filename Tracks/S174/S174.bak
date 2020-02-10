@@ -144,7 +144,7 @@ U 1 1 5E188F92
 P 2100 2700
 F 0 "TP1" H 2158 2818 50  0001 L CNN
 F 1 "TestPoint" H 2158 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 2300 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 2300 2700 50  0001 C CNN
 F 3 "~" H 2300 2700 50  0001 C CNN
 	1    2100 2700
 	1    0    0    -1  
@@ -155,7 +155,7 @@ U 1 1 5E189B2F
 P 2300 2700
 F 0 "TP3" H 2358 2818 50  0001 L CNN
 F 1 "TestPoint" H 2358 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 2500 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 2500 2700 50  0001 C CNN
 F 3 "~" H 2500 2700 50  0001 C CNN
 	1    2300 2700
 	1    0    0    -1  
@@ -166,7 +166,7 @@ U 1 1 5E189CAB
 P 2500 2700
 F 0 "TP5" H 2558 2818 50  0001 L CNN
 F 1 "TestPoint" H 2558 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 2700 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 2700 2700 50  0001 C CNN
 F 3 "~" H 2700 2700 50  0001 C CNN
 	1    2500 2700
 	1    0    0    -1  
@@ -177,7 +177,7 @@ U 1 1 5E189D70
 P 2700 2700
 F 0 "TP7" H 2758 2818 50  0001 L CNN
 F 1 "TestPoint" H 2758 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 2900 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 2900 2700 50  0001 C CNN
 F 3 "~" H 2900 2700 50  0001 C CNN
 	1    2700 2700
 	1    0    0    -1  
@@ -188,7 +188,7 @@ U 1 1 5E189E6D
 P 2900 2700
 F 0 "TP9" H 2958 2818 50  0001 L CNN
 F 1 "TestPoint" H 2958 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 3100 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 3100 2700 50  0001 C CNN
 F 3 "~" H 3100 2700 50  0001 C CNN
 	1    2900 2700
 	1    0    0    -1  
@@ -199,7 +199,7 @@ U 1 1 5E18A009
 P 3100 2700
 F 0 "TP11" H 3158 2818 50  0001 L CNN
 F 1 "TestPoint" H 3158 2727 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" H 3300 2700 50  0001 C CNN
+F 2 "suku_basics:HO_tie" H 3300 2700 50  0001 C CNN
 F 3 "~" H 3300 2700 50  0001 C CNN
 	1    3100 2700
 	1    0    0    -1  

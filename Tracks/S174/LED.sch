@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:HO_Turnout_No4-cache
+LIBS:S174-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268

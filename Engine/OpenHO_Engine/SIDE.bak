@@ -1,0 +1,1049 @@
+EESchema Schematic File Version 4
+LIBS:OpenHO_Engine-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E57108C
+P 2500 4000
+AR Path="/5E57108C" Ref="J?"  Part="1" 
+AR Path="/5E51ECB8/5E57108C" Ref="J1"  Part="1" 
+AR Path="/5E5E11EC/5E57108C" Ref="J5"  Part="1" 
+F 0 "J5" H 2418 3775 50  0000 C CNN
+F 1 "Conn_01x01" H 2418 3866 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 2500 4000 50  0001 C CNN
+F 3 "~" H 2500 4000 50  0001 C CNN
+	1    2500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E571092
+P 3500 4000
+AR Path="/5E571092" Ref="J?"  Part="1" 
+AR Path="/5E51ECB8/5E571092" Ref="J2"  Part="1" 
+AR Path="/5E5E11EC/5E571092" Ref="J6"  Part="1" 
+F 0 "J6" H 3580 4042 50  0000 L CNN
+F 1 "Conn_01x01" H 3580 3951 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3500 4000 50  0001 C CNN
+F 3 "~" H 3500 4000 50  0001 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4000 3000 4000
+Connection ~ 3000 4000
+Wire Wire Line
+	3300 4000 3000 4000
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E57109B
+P 6500 4000
+AR Path="/5E57109B" Ref="J?"  Part="1" 
+AR Path="/5E51ECB8/5E57109B" Ref="J3"  Part="1" 
+AR Path="/5E5E11EC/5E57109B" Ref="J7"  Part="1" 
+F 0 "J7" H 6418 3775 50  0000 C CNN
+F 1 "Conn_01x01" H 6418 3866 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6500 4000 50  0001 C CNN
+F 3 "~" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E5710A1
+P 7500 4000
+AR Path="/5E5710A1" Ref="J?"  Part="1" 
+AR Path="/5E51ECB8/5E5710A1" Ref="J4"  Part="1" 
+AR Path="/5E5E11EC/5E5710A1" Ref="J8"  Part="1" 
+F 0 "J8" H 7580 4042 50  0000 L CNN
+F 1 "Conn_01x01" H 7580 3951 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7500 4000 50  0001 C CNN
+F 3 "~" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4000 7000 4000
+Connection ~ 7000 4000
+Wire Wire Line
+	7300 4000 7000 4000
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5710AA
+P 4000 5600
+AR Path="/5E5710AA" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5710AA" Ref="D5"  Part="1" 
+AR Path="/5E5E11EC/5E5710AA" Ref="D20"  Part="1" 
+F 0 "D20" V 4046 5532 50  0000 R CNN
+F 1 "LED" V 3955 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 4000 5600 50  0001 C CNN
+F 3 "~" V 4000 5600 50  0001 C CNN
+	1    4000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5710B0
+P 4300 5600
+AR Path="/5E5710B0" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5710B0" Ref="D6"  Part="1" 
+AR Path="/5E5E11EC/5E5710B0" Ref="D21"  Part="1" 
+F 0 "D21" V 4346 5532 50  0000 R CNN
+F 1 "LED" V 4255 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 4300 5600 50  0001 C CNN
+F 3 "~" V 4300 5600 50  0001 C CNN
+	1    4300 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5710BC
+P 4000 5300
+AR Path="/5E5710BC" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5710BC" Ref="R6"  Part="1" 
+AR Path="/5E5E11EC/5E5710BC" Ref="R25"  Part="1" 
+F 0 "R25" H 4059 5346 50  0000 L CNN
+F 1 "RES" H 4059 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 4000 5300 50  0001 C CNN
+F 3 "~" H 4000 5300 50  0001 C CNN
+	1    4000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5710C2
+P 4300 5300
+AR Path="/5E5710C2" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5710C2" Ref="R7"  Part="1" 
+AR Path="/5E5E11EC/5E5710C2" Ref="R26"  Part="1" 
+F 0 "R26" H 4359 5346 50  0000 L CNN
+F 1 "RES" H 4359 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 4300 5300 50  0001 C CNN
+F 3 "~" H 4300 5300 50  0001 C CNN
+	1    4300 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5500 4000 5400
+Wire Wire Line
+	4300 5500 4300 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E5710D1
+P 4000 5800
+AR Path="/5E5710D1" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710D1" Ref="#PWR0102"  Part="1" 
+AR Path="/5E5E11EC/5E5710D1" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 4000 5550 50  0001 C CNN
+F 1 "GND" H 4005 5627 50  0000 C CNN
+F 2 "" H 4000 5800 50  0001 C CNN
+F 3 "" H 4000 5800 50  0001 C CNN
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5710D7
+P 4300 5800
+AR Path="/5E5710D7" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710D7" Ref="#PWR0103"  Part="1" 
+AR Path="/5E5E11EC/5E5710D7" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 4300 5550 50  0001 C CNN
+F 1 "GND" H 4305 5627 50  0000 C CNN
+F 2 "" H 4300 5800 50  0001 C CNN
+F 3 "" H 4300 5800 50  0001 C CNN
+	1    4300 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5800 4000 5700
+Wire Wire Line
+	4300 5800 4300 5700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5710E6
+P 4000 5100
+AR Path="/5E5710E6" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710E6" Ref="#PWR0105"  Part="1" 
+AR Path="/5E5E11EC/5E5710E6" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 4000 4950 50  0001 C CNN
+F 1 "+3V3" H 4015 5273 50  0000 C CNN
+F 2 "" H 4000 5100 50  0001 C CNN
+F 3 "" H 4000 5100 50  0001 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5710EC
+P 4300 5100
+AR Path="/5E5710EC" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710EC" Ref="#PWR0106"  Part="1" 
+AR Path="/5E5E11EC/5E5710EC" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 4300 4950 50  0001 C CNN
+F 1 "+3V3" H 4315 5273 50  0000 C CNN
+F 2 "" H 4300 5100 50  0001 C CNN
+F 3 "" H 4300 5100 50  0001 C CNN
+	1    4300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5200 4000 5100
+Wire Wire Line
+	4300 5200 4300 5100
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5710FB
+P 3000 3600
+AR Path="/5E5710FB" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5710FB" Ref="R4"  Part="1" 
+AR Path="/5E5E11EC/5E5710FB" Ref="R23"  Part="1" 
+F 0 "R23" H 3059 3646 50  0000 L CNN
+F 1 "RES" H 3059 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3000 3600 50  0001 C CNN
+F 3 "~" H 3000 3600 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E571101
+P 7000 3600
+AR Path="/5E571101" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E571101" Ref="R16"  Part="1" 
+AR Path="/5E5E11EC/5E571101" Ref="R34"  Part="1" 
+F 0 "R34" H 7059 3646 50  0000 L CNN
+F 1 "RES" H 7059 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 7000 3600 50  0001 C CNN
+F 3 "~" H 7000 3600 50  0001 C CNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4000 3000 3800
+Wire Wire Line
+	3000 3500 3000 3400
+Wire Wire Line
+	7000 3500 7000 3400
+Wire Wire Line
+	7000 4000 7000 3800
+$Comp
+L suku_basics:RES R?
+U 1 1 5E57110B
+P 3300 3600
+AR Path="/5E57110B" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E57110B" Ref="R5"  Part="1" 
+AR Path="/5E5E11EC/5E57110B" Ref="R24"  Part="1" 
+F 0 "R24" H 3359 3646 50  0000 L CNN
+F 1 "RES" H 3359 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 3300 3600 50  0001 C CNN
+F 3 "~" H 3300 3600 50  0001 C CNN
+	1    3300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3800 3300 3800
+Wire Wire Line
+	3300 3800 3300 3700
+Connection ~ 3000 3800
+Wire Wire Line
+	3000 3800 3000 3700
+Wire Wire Line
+	3300 3500 3300 3400
+Wire Wire Line
+	3300 3400 3000 3400
+Connection ~ 3000 3400
+$Comp
+L suku_basics:RES R?
+U 1 1 5E571118
+P 6700 3600
+AR Path="/5E571118" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E571118" Ref="R14"  Part="1" 
+AR Path="/5E5E11EC/5E571118" Ref="R32"  Part="1" 
+F 0 "R32" H 6759 3646 50  0000 L CNN
+F 1 "RES" H 6759 3555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" H 6700 3600 50  0001 C CNN
+F 3 "~" H 6700 3600 50  0001 C CNN
+	1    6700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3700 6700 3800
+Wire Wire Line
+	6700 3800 7000 3800
+Connection ~ 7000 3800
+Wire Wire Line
+	7000 3800 7000 3700
+Wire Wire Line
+	7000 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 3500
+Connection ~ 7000 3400
+$Comp
+L agro-symbol:SCHOTTKY D?
+U 1 1 5E571125
+P 2800 3000
+AR Path="/5E571125" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E571125" Ref="D3"  Part="1" 
+AR Path="/5E5E11EC/5E571125" Ref="D18"  Part="1" 
+F 0 "D18" V 2800 3068 50  0000 L CNN
+F 1 "SCHOTTKY" V 2845 3068 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 2800 3000 50  0001 C CNN
+F 3 "~" V 2800 3000 50  0001 C CNN
+	1    2800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L agro-symbol:SCHOTTKY D?
+U 1 1 5E57112B
+P 3200 3000
+AR Path="/5E57112B" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E57112B" Ref="D4"  Part="1" 
+AR Path="/5E5E11EC/5E57112B" Ref="D19"  Part="1" 
+F 0 "D19" V 3200 3068 50  0000 L CNN
+F 1 "SCHOTTKY" V 3245 3068 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 3200 3000 50  0001 C CNN
+F 3 "~" V 3200 3000 50  0001 C CNN
+	1    3200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3000 3300 3000
+Wire Wire Line
+	3100 3000 3000 3000
+Wire Wire Line
+	2900 3000 3000 3000
+Connection ~ 3000 3000
+$Comp
+L power:+VDC #PWR?
+U 1 1 5E571135
+P 2600 3000
+AR Path="/5E571135" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571135" Ref="#PWR0110"  Part="1" 
+AR Path="/5E5E11EC/5E571135" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 2600 2900 50  0001 C CNN
+F 1 "+VDC" H 2600 3275 50  0000 C CNN
+F 2 "" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2600 3000 2700 3000
+$Comp
+L power:-VDC #PWR?
+U 1 1 5E57113C
+P 3400 3000
+AR Path="/5E57113C" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E57113C" Ref="#PWR0111"  Part="1" 
+AR Path="/5E5E11EC/5E57113C" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 3400 2900 50  0001 C CNN
+F 1 "-VDC" H 3400 3275 50  0000 C CNN
+F 2 "" H 3400 3000 50  0001 C CNN
+F 3 "" H 3400 3000 50  0001 C CNN
+	1    3400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L agro-symbol:SCHOTTKY D?
+U 1 1 5E571142
+P 6800 3000
+AR Path="/5E571142" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E571142" Ref="D12"  Part="1" 
+AR Path="/5E5E11EC/5E571142" Ref="D27"  Part="1" 
+F 0 "D27" V 6800 3068 50  0000 L CNN
+F 1 "SCHOTTKY" V 6845 3068 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 6800 3000 50  0001 C CNN
+F 3 "~" V 6800 3000 50  0001 C CNN
+	1    6800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L agro-symbol:SCHOTTKY D?
+U 1 1 5E571148
+P 7200 3000
+AR Path="/5E571148" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E571148" Ref="D13"  Part="1" 
+AR Path="/5E5E11EC/5E571148" Ref="D28"  Part="1" 
+F 0 "D28" V 7200 3068 50  0000 L CNN
+F 1 "SCHOTTKY" V 7245 3068 50  0001 L CNN
+F 2 "Diode_SMD:D_SOD-123" V 7200 3000 50  0001 C CNN
+F 3 "~" V 7200 3000 50  0001 C CNN
+	1    7200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3000 7300 3000
+Wire Wire Line
+	7100 3000 7000 3000
+Wire Wire Line
+	6900 3000 7000 3000
+Connection ~ 7000 3000
+$Comp
+L power:+VDC #PWR?
+U 1 1 5E571152
+P 6600 3000
+AR Path="/5E571152" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571152" Ref="#PWR0112"  Part="1" 
+AR Path="/5E5E11EC/5E571152" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 6600 2900 50  0001 C CNN
+F 1 "+VDC" H 6600 3275 50  0000 C CNN
+F 2 "" H 6600 3000 50  0001 C CNN
+F 3 "" H 6600 3000 50  0001 C CNN
+	1    6600 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 3000 6700 3000
+$Comp
+L power:-VDC #PWR?
+U 1 1 5E571159
+P 7400 3000
+AR Path="/5E571159" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571159" Ref="#PWR0113"  Part="1" 
+AR Path="/5E5E11EC/5E571159" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 7400 2900 50  0001 C CNN
+F 1 "-VDC" H 7400 3275 50  0000 C CNN
+F 2 "" H 7400 3000 50  0001 C CNN
+F 3 "" H 7400 3000 50  0001 C CNN
+	1    7400 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3000 3000 3400
+Wire Wire Line
+	7000 3000 7000 3400
+$Comp
+L suku_basics:RES R?
+U 1 1 5E571167
+P 3000 2700
+AR Path="/5E571167" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E571167" Ref="R3"  Part="1" 
+AR Path="/5E5E11EC/5E571167" Ref="R22"  Part="1" 
+F 0 "R22" H 3059 2746 50  0000 L CNN
+F 1 "RES" H 3059 2655 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 3000 2700 50  0001 C CNN
+F 3 "~" H 3000 2700 50  0001 C CNN
+	1    3000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3000 3000 2800
+$Comp
+L suku_basics:RES R?
+U 1 1 5E57116F
+P 7000 2700
+AR Path="/5E57116F" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E57116F" Ref="R15"  Part="1" 
+AR Path="/5E5E11EC/5E57116F" Ref="R33"  Part="1" 
+F 0 "R33" H 7059 2746 50  0000 L CNN
+F 1 "RES" H 7059 2655 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3000 7000 2800
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5711E9
+P 1700 5600
+AR Path="/5E5711E9" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5711E9" Ref="D1"  Part="1" 
+AR Path="/5E5E11EC/5E5711E9" Ref="D16"  Part="1" 
+F 0 "D16" V 1746 5532 50  0000 R CNN
+F 1 "LED" V 1655 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 1700 5600 50  0001 C CNN
+F 3 "~" V 1700 5600 50  0001 C CNN
+	1    1700 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5711EF
+P 2000 5600
+AR Path="/5E5711EF" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5711EF" Ref="D2"  Part="1" 
+AR Path="/5E5E11EC/5E5711EF" Ref="D17"  Part="1" 
+F 0 "D17" V 2046 5532 50  0000 R CNN
+F 1 "LED" V 1955 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 2000 5600 50  0001 C CNN
+F 3 "~" V 2000 5600 50  0001 C CNN
+	1    2000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5711F5
+P 1700 5300
+AR Path="/5E5711F5" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5711F5" Ref="R1"  Part="1" 
+AR Path="/5E5E11EC/5E5711F5" Ref="R20"  Part="1" 
+F 0 "R20" H 1759 5346 50  0000 L CNN
+F 1 "RES" H 1759 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 1700 5300 50  0001 C CNN
+F 3 "~" H 1700 5300 50  0001 C CNN
+	1    1700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5711FB
+P 2000 5300
+AR Path="/5E5711FB" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5711FB" Ref="R2"  Part="1" 
+AR Path="/5E5E11EC/5E5711FB" Ref="R21"  Part="1" 
+F 0 "R21" H 2059 5346 50  0000 L CNN
+F 1 "RES" H 2059 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 2000 5300 50  0001 C CNN
+F 3 "~" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5500 1700 5400
+Wire Wire Line
+	2000 5500 2000 5400
+$Comp
+L power:GND #PWR?
+U 1 1 5E571203
+P 1700 5800
+AR Path="/5E571203" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571203" Ref="#PWR0120"  Part="1" 
+AR Path="/5E5E11EC/5E571203" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 1700 5550 50  0001 C CNN
+F 1 "GND" H 1705 5627 50  0000 C CNN
+F 2 "" H 1700 5800 50  0001 C CNN
+F 3 "" H 1700 5800 50  0001 C CNN
+	1    1700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E571209
+P 2000 5800
+AR Path="/5E571209" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571209" Ref="#PWR0121"  Part="1" 
+AR Path="/5E5E11EC/5E571209" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 2000 5550 50  0001 C CNN
+F 1 "GND" H 2005 5627 50  0000 C CNN
+F 2 "" H 2000 5800 50  0001 C CNN
+F 3 "" H 2000 5800 50  0001 C CNN
+	1    2000 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5800 1700 5700
+Wire Wire Line
+	2000 5800 2000 5700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E571211
+P 1700 5100
+AR Path="/5E571211" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571211" Ref="#PWR0122"  Part="1" 
+AR Path="/5E5E11EC/5E571211" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 1700 4950 50  0001 C CNN
+F 1 "+3V3" H 1715 5273 50  0000 C CNN
+F 2 "" H 1700 5100 50  0001 C CNN
+F 3 "" H 1700 5100 50  0001 C CNN
+	1    1700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E571217
+P 2000 5100
+AR Path="/5E571217" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571217" Ref="#PWR0123"  Part="1" 
+AR Path="/5E5E11EC/5E571217" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 2000 4950 50  0001 C CNN
+F 1 "+3V3" H 2015 5273 50  0000 C CNN
+F 2 "" H 2000 5100 50  0001 C CNN
+F 3 "" H 2000 5100 50  0001 C CNN
+	1    2000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5200 1700 5100
+Wire Wire Line
+	2000 5200 2000 5100
+$Comp
+L suku_basics:LED D?
+U 1 1 5E57121F
+P 7700 5700
+AR Path="/5E57121F" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E57121F" Ref="D14"  Part="1" 
+AR Path="/5E5E11EC/5E57121F" Ref="D29"  Part="1" 
+F 0 "D29" V 7746 5632 50  0000 R CNN
+F 1 "LED" V 7655 5632 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 7700 5700 50  0001 C CNN
+F 3 "~" V 7700 5700 50  0001 C CNN
+	1    7700 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E571225
+P 8000 5700
+AR Path="/5E571225" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E571225" Ref="D15"  Part="1" 
+AR Path="/5E5E11EC/5E571225" Ref="D30"  Part="1" 
+F 0 "D30" V 8046 5632 50  0000 R CNN
+F 1 "LED" V 7955 5632 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 8000 5700 50  0001 C CNN
+F 3 "~" V 8000 5700 50  0001 C CNN
+	1    8000 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E57122B
+P 7700 5400
+AR Path="/5E57122B" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E57122B" Ref="R17"  Part="1" 
+AR Path="/5E5E11EC/5E57122B" Ref="R35"  Part="1" 
+F 0 "R35" H 7759 5446 50  0000 L CNN
+F 1 "RES" H 7759 5355 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 7700 5400 50  0001 C CNN
+F 3 "~" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E571231
+P 8000 5400
+AR Path="/5E571231" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E571231" Ref="R18"  Part="1" 
+AR Path="/5E5E11EC/5E571231" Ref="R36"  Part="1" 
+F 0 "R36" H 8059 5446 50  0000 L CNN
+F 1 "RES" H 8059 5355 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 8000 5400 50  0001 C CNN
+F 3 "~" H 8000 5400 50  0001 C CNN
+	1    8000 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5600 7700 5500
+Wire Wire Line
+	8000 5600 8000 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5E571239
+P 7700 5900
+AR Path="/5E571239" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571239" Ref="#PWR0124"  Part="1" 
+AR Path="/5E5E11EC/5E571239" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 7700 5650 50  0001 C CNN
+F 1 "GND" H 7705 5727 50  0000 C CNN
+F 2 "" H 7700 5900 50  0001 C CNN
+F 3 "" H 7700 5900 50  0001 C CNN
+	1    7700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E57123F
+P 8000 5900
+AR Path="/5E57123F" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E57123F" Ref="#PWR0125"  Part="1" 
+AR Path="/5E5E11EC/5E57123F" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 8000 5650 50  0001 C CNN
+F 1 "GND" H 8005 5727 50  0000 C CNN
+F 2 "" H 8000 5900 50  0001 C CNN
+F 3 "" H 8000 5900 50  0001 C CNN
+	1    8000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5900 7700 5800
+Wire Wire Line
+	8000 5900 8000 5800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E571247
+P 7700 5200
+AR Path="/5E571247" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571247" Ref="#PWR0126"  Part="1" 
+AR Path="/5E5E11EC/5E571247" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 7700 5050 50  0001 C CNN
+F 1 "+3V3" H 7715 5373 50  0000 C CNN
+F 2 "" H 7700 5200 50  0001 C CNN
+F 3 "" H 7700 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E57124D
+P 8000 5200
+AR Path="/5E57124D" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E57124D" Ref="#PWR0127"  Part="1" 
+AR Path="/5E5E11EC/5E57124D" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 8000 5050 50  0001 C CNN
+F 1 "+3V3" H 8015 5373 50  0000 C CNN
+F 2 "" H 8000 5200 50  0001 C CNN
+F 3 "" H 8000 5200 50  0001 C CNN
+	1    8000 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5300 7700 5200
+Wire Wire Line
+	8000 5300 8000 5200
+Wire Wire Line
+	5800 5200 5800 5100
+Wire Wire Line
+	5500 5200 5500 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5711E1
+P 5800 5100
+AR Path="/5E5711E1" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711E1" Ref="#PWR0128"  Part="1" 
+AR Path="/5E5E11EC/5E5711E1" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 5800 4950 50  0001 C CNN
+F 1 "+3V3" H 5815 5273 50  0000 C CNN
+F 2 "" H 5800 5100 50  0001 C CNN
+F 3 "" H 5800 5100 50  0001 C CNN
+	1    5800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5711DB
+P 5500 5100
+AR Path="/5E5711DB" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711DB" Ref="#PWR0129"  Part="1" 
+AR Path="/5E5E11EC/5E5711DB" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 5500 4950 50  0001 C CNN
+F 1 "+3V3" H 5515 5273 50  0000 C CNN
+F 2 "" H 5500 5100 50  0001 C CNN
+F 3 "" H 5500 5100 50  0001 C CNN
+	1    5500 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5800 5800 5700
+Wire Wire Line
+	5500 5800 5500 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5E5711D3
+P 5800 5800
+AR Path="/5E5711D3" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711D3" Ref="#PWR0130"  Part="1" 
+AR Path="/5E5E11EC/5E5711D3" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 5800 5550 50  0001 C CNN
+F 1 "GND" H 5805 5627 50  0000 C CNN
+F 2 "" H 5800 5800 50  0001 C CNN
+F 3 "" H 5800 5800 50  0001 C CNN
+	1    5800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5711CD
+P 5500 5800
+AR Path="/5E5711CD" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711CD" Ref="#PWR0131"  Part="1" 
+AR Path="/5E5E11EC/5E5711CD" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 5500 5550 50  0001 C CNN
+F 1 "GND" H 5505 5627 50  0000 C CNN
+F 2 "" H 5500 5800 50  0001 C CNN
+F 3 "" H 5500 5800 50  0001 C CNN
+	1    5500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 5500 5800 5400
+Wire Wire Line
+	5500 5500 5500 5400
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5711C5
+P 5800 5300
+AR Path="/5E5711C5" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5711C5" Ref="R13"  Part="1" 
+AR Path="/5E5E11EC/5E5711C5" Ref="R31"  Part="1" 
+F 0 "R31" H 5859 5346 50  0000 L CNN
+F 1 "RES" H 5859 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 5800 5300 50  0001 C CNN
+F 3 "~" H 5800 5300 50  0001 C CNN
+	1    5800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5711BF
+P 5500 5300
+AR Path="/5E5711BF" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5711BF" Ref="R12"  Part="1" 
+AR Path="/5E5E11EC/5E5711BF" Ref="R30"  Part="1" 
+F 0 "R30" H 5559 5346 50  0000 L CNN
+F 1 "RES" H 5559 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 5500 5300 50  0001 C CNN
+F 3 "~" H 5500 5300 50  0001 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5711B9
+P 5800 5600
+AR Path="/5E5711B9" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5711B9" Ref="D11"  Part="1" 
+AR Path="/5E5E11EC/5E5711B9" Ref="D26"  Part="1" 
+F 0 "D26" V 5846 5532 50  0000 R CNN
+F 1 "LED" V 5755 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 5800 5600 50  0001 C CNN
+F 3 "~" V 5800 5600 50  0001 C CNN
+	1    5800 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5711B3
+P 5500 5600
+AR Path="/5E5711B3" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5711B3" Ref="D10"  Part="1" 
+AR Path="/5E5E11EC/5E5711B3" Ref="D25"  Part="1" 
+F 0 "D25" V 5546 5532 50  0000 R CNN
+F 1 "LED" V 5455 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 5500 5600 50  0001 C CNN
+F 3 "~" V 5500 5600 50  0001 C CNN
+	1    5500 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 5200 5200 5100
+Wire Wire Line
+	4900 5200 4900 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5711AB
+P 5200 5100
+AR Path="/5E5711AB" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711AB" Ref="#PWR0132"  Part="1" 
+AR Path="/5E5E11EC/5E5711AB" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 5200 4950 50  0001 C CNN
+F 1 "+3V3" H 5215 5273 50  0000 C CNN
+F 2 "" H 5200 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5711A5
+P 4900 5100
+AR Path="/5E5711A5" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5711A5" Ref="#PWR0133"  Part="1" 
+AR Path="/5E5E11EC/5E5711A5" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 4900 4950 50  0001 C CNN
+F 1 "+3V3" H 4915 5273 50  0000 C CNN
+F 2 "" H 4900 5100 50  0001 C CNN
+F 3 "" H 4900 5100 50  0001 C CNN
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5800 5200 5700
+Wire Wire Line
+	4900 5800 4900 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5E57119D
+P 5200 5800
+AR Path="/5E57119D" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E57119D" Ref="#PWR0134"  Part="1" 
+AR Path="/5E5E11EC/5E57119D" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 5200 5550 50  0001 C CNN
+F 1 "GND" H 5205 5627 50  0000 C CNN
+F 2 "" H 5200 5800 50  0001 C CNN
+F 3 "" H 5200 5800 50  0001 C CNN
+	1    5200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E571197
+P 4900 5800
+AR Path="/5E571197" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E571197" Ref="#PWR0135"  Part="1" 
+AR Path="/5E5E11EC/5E571197" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 4900 5550 50  0001 C CNN
+F 1 "GND" H 4905 5627 50  0000 C CNN
+F 2 "" H 4900 5800 50  0001 C CNN
+F 3 "" H 4900 5800 50  0001 C CNN
+	1    4900 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5500 5200 5400
+Wire Wire Line
+	4900 5500 4900 5400
+$Comp
+L suku_basics:RES R?
+U 1 1 5E57118F
+P 5200 5300
+AR Path="/5E57118F" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E57118F" Ref="R11"  Part="1" 
+AR Path="/5E5E11EC/5E57118F" Ref="R29"  Part="1" 
+F 0 "R29" H 5259 5346 50  0000 L CNN
+F 1 "RES" H 5259 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 5200 5300 50  0001 C CNN
+F 3 "~" H 5200 5300 50  0001 C CNN
+	1    5200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:RES R?
+U 1 1 5E571189
+P 4900 5300
+AR Path="/5E571189" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E571189" Ref="R10"  Part="1" 
+AR Path="/5E5E11EC/5E571189" Ref="R28"  Part="1" 
+F 0 "R28" H 4959 5346 50  0000 L CNN
+F 1 "RES" H 4959 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 4900 5300 50  0001 C CNN
+F 3 "~" H 4900 5300 50  0001 C CNN
+	1    4900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E571183
+P 5200 5600
+AR Path="/5E571183" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E571183" Ref="D9"  Part="1" 
+AR Path="/5E5E11EC/5E571183" Ref="D24"  Part="1" 
+F 0 "D24" V 5246 5532 50  0000 R CNN
+F 1 "LED" V 5155 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 5200 5600 50  0001 C CNN
+F 3 "~" V 5200 5600 50  0001 C CNN
+	1    5200 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E57117D
+P 4900 5600
+AR Path="/5E57117D" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E57117D" Ref="D8"  Part="1" 
+AR Path="/5E5E11EC/5E57117D" Ref="D23"  Part="1" 
+F 0 "D23" V 4946 5532 50  0000 R CNN
+F 1 "LED" V 4855 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 4900 5600 50  0001 C CNN
+F 3 "~" V 4900 5600 50  0001 C CNN
+	1    4900 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 5200 4600 5100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E5710F2
+P 4600 5100
+AR Path="/5E5710F2" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710F2" Ref="#PWR0136"  Part="1" 
+AR Path="/5E5E11EC/5E5710F2" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 4600 4950 50  0001 C CNN
+F 1 "+3V3" H 4615 5273 50  0000 C CNN
+F 2 "" H 4600 5100 50  0001 C CNN
+F 3 "" H 4600 5100 50  0001 C CNN
+	1    4600 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5800 4600 5700
+$Comp
+L power:GND #PWR?
+U 1 1 5E5710DD
+P 4600 5800
+AR Path="/5E5710DD" Ref="#PWR?"  Part="1" 
+AR Path="/5E51ECB8/5E5710DD" Ref="#PWR0137"  Part="1" 
+AR Path="/5E5E11EC/5E5710DD" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 4600 5550 50  0001 C CNN
+F 1 "GND" H 4605 5627 50  0000 C CNN
+F 2 "" H 4600 5800 50  0001 C CNN
+F 3 "" H 4600 5800 50  0001 C CNN
+	1    4600 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5500 4600 5400
+$Comp
+L suku_basics:RES R?
+U 1 1 5E5710C8
+P 4600 5300
+AR Path="/5E5710C8" Ref="R?"  Part="1" 
+AR Path="/5E51ECB8/5E5710C8" Ref="R9"  Part="1" 
+AR Path="/5E5E11EC/5E5710C8" Ref="R27"  Part="1" 
+F 0 "R27" H 4659 5346 50  0000 L CNN
+F 1 "RES" H 4659 5255 50  0000 L CNN
+F 2 "suku_basics:RES_0805" H 4600 5300 50  0001 C CNN
+F 3 "~" H 4600 5300 50  0001 C CNN
+	1    4600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L suku_basics:LED D?
+U 1 1 5E5710B6
+P 4600 5600
+AR Path="/5E5710B6" Ref="D?"  Part="1" 
+AR Path="/5E51ECB8/5E5710B6" Ref="D7"  Part="1" 
+AR Path="/5E5E11EC/5E5710B6" Ref="D22"  Part="1" 
+F 0 "D22" V 4646 5532 50  0000 R CNN
+F 1 "LED" V 4555 5532 50  0000 R CNN
+F 2 "suku_basics:LED_0805" V 4600 5600 50  0001 C CNN
+F 3 "~" V 4600 5600 50  0001 C CNN
+	1    4600 5600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3000 2100 1    50   UnSpc ~ 0
+PICKUP
+Text HLabel 7000 2100 1    50   UnSpc ~ 0
+PICKUP
+Wire Wire Line
+	3000 2100 3000 2600
+Wire Wire Line
+	7000 2600 7000 2100
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5E6186B7
+P 4000 1000
+F 0 "H?" H 4100 1046 50  0000 L CNN
+F 1 "MountingHole" H 4100 955 50  0000 L CNN
+F 2 "suku_basics:PANEL_BREAKOUT-2x3-0.7" H 4000 1000 50  0001 C CNN
+F 3 "~" H 4000 1000 50  0001 C CNN
+	1    4000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5E618A3F
+P 4900 1000
+F 0 "H?" H 5000 1046 50  0000 L CNN
+F 1 "MountingHole" H 5000 955 50  0000 L CNN
+F 2 "suku_basics:PANEL_BREAKOUT-2x3-0.7" H 4900 1000 50  0001 C CNN
+F 3 "~" H 4900 1000 50  0001 C CNN
+	1    4900 1000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
